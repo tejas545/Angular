@@ -1,0 +1,163 @@
+/*You can add global styles to this file, and also import other style files
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 15px;
+}
+
+.details p {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+body {
+  background: hsl(208, 49%, 7%);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  justify-content: center;
+  background: hsl(244, 38%, 16%);
+  border-radius: 10px;
+}
+
+.header {
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.header_text {
+  line-height: 25px;
+  grid-row: 2;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.stats {
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.details {
+  padding-right: 50px;
+}
+
+.image_container {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  background: hsl(277, 64%, 61%);
+  background-image: url(images/image-header-desktop.jpg);
+  max-height: 100%;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.attribution a {
+  color: hsl(277, 64%, 61%);
+  text-decoration: none;
+}
+
+/*Media Query*/
+/*
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+
+  section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80vw;
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    grid-row: 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .header_text {
+    grid-row: 3;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .stats {
+    grid-row: 4;
+    text-align: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .details {
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+
+  .image_container {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+  }
+  .attribution {
+    display: none;
+  }
+}
+*/

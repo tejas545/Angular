@@ -1,0 +1,177 @@
+<!---<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+  <div class="box"  style="display: flex;">
+    <div class="one">
+      <h2>SEDANS</h2>
+      <p> choose a sedan for its affordability and excellent fuel economy.Ideal for cruising in the city or an your next road trip</p>
+      <div class="four">
+        <a href="">Learn more</a>
+      </div>
+    </div>
+    <div class="two">
+      <h2>SEDANS</h2>
+      <p> choose a sedan for its affordability and excellent fuel economy.Ideal for cruising in the city or an your next road trip</p>
+      <div class="four">
+        <a href="">Learn more</a>
+    </div>
+    </div>
+    <div class="three">
+      <h2>SEDANS</h2>
+      <p> choose a sedan for its affordability and excellent fuel economy.Ideal for cruising in the city or an your next road trip</p>
+      <div class="four">
+        <a href="">Learn more</a>
+    </div>
+  </div>
+  
+  <h1>{{getName("Bruce")}}</h1>
+ 
+
+
+  <button (click)="getN(name)">Click Me</button><br>
+  <p>keyup event:</p>
+  <input type="text"  (keyup)="getName()"><br>
+  <p>keydown event:</p>
+  <input type="text" (keydown)="getNa()"><br>
+  <p>keypress event:</p>
+  <input type="text" (keypress)="getNamee()">
+
+
+   <input type="text" value="{{name}}" disabled={{disabledBox}} >
+   <input type="text" [value]="name" [disabled]="disabledBox">
+   <input type="text"  placeholder="Enter name">
+   <button (click)="enableInput()">submit</button>
+
+
+
+
+   <table border="1">
+      <thead>
+         
+<tr> <th>Employee Id</th> <th>Employee Name</th> </tr>
+      </thead>
+      <tbody>
+          <tr> <td>1001</td> <td>Jack</td> </tr>
+          <tr> <td>1002</td> <td>John</td> </tr>
+    <tr> <td> 1003</td> <td> abc</td> </tr>
+      </tbody>
+  </table>
+    
+
+
+    
+
+
+    <h1 *ngIf="day else elseBlock">You entered condition is true</h1>
+    <ng-template #elseBlock>content to render when condition is false.</ng-template>
+
+    <h1 *ngIf="one else another">Hello</h1>
+    <ng-template #another>you entered condition is false so it move to else loop</ng-template>
+
+
+
+
+
+     <app-login></app-login>
+
+
+    
+
+   
+   <h2 *ngFor="let name of names">{{name.fname}}  {{name.age}}</h2>
+
+
+   <h1 *ngIf="date=='tomorrow' else elseBlock">Hello</h1>
+   <ng-template #elseBlock>
+    <h1>Today is holiday</h1> 
+    </ng-template>
+
+
+    <h1>ngSwitch example: </h1>
+
+    <div [ngSwitch]="switchValue">
+      <div *ngSwitchCase="1"><h2>Value passed is : 1</h2> </div>
+      <div *ngSwitchCase="2"><h2>Value passed is : 2</h2></div>
+      <div *ngSwitchCase="3"><h2>Value passed is : 3</h2></div>
+      <div *ngSwitchCase="4"><h2>Value passed is : 4</h2></div>
+      <div *ngSwitchDefault>This is the default</div>
+    </div>
+
+
+
+    
+
+  
+    <h1 [ngStyle] ="{'color':'red'}">Good morning</h1>
+    <h1 [ngStyle]="{'color':textcolor}">Good afternoon</h1>
+    <h1 [ngStyle]="{'background-color':bgcolor==='black'?'black':'grey'}">Everyone</h1>
+
+    <h1 [ngClass]="'changecolor'">Hello</h1>
+    <h1 [ngClass]="'changecolor bgcolor'">HII</h1>
+    <h1 [ngClass]="stylecolor">Hello Everyone</h1>
+
+
+
+    
+
+    <h1 appHighlight>Good morning</h1>
+
+    
+    
+    
+    
+    <h1>{{'india' | uppercase }}</h1>
+
+    <h1>{{'TEJAS M K' | lowercase }}</h1>
+
+    <h1>{{'150' | currency}}</h1>
+
+    <h1>Today's date is: {{dateExample | date}}</h1>
+
+    <h1>{{'0.10' | percent}}</h1>
+
+
+
+    <h1>{{'100' | currency:'INR'}}</h1>
+
+    <h1>{{dateExample | date:'long'}}</h1>
+
+    <h1>{{dateExample | date:'short'}}</h1>
+
+    <h1>{{dateExample | date:'dd-MM-yyyy'}}</h1>
+
+    <h1>{{'0.4567' | percent:'2.2-3'}}</h1>
+
+
+
+
+    <h1>{{dateExample | date | lowercase}}</h1>
+
+
+--->
+
+<!-- <app-login></app-login>
+<table border="1">
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+  </tr>
+  <tr *ngFor="let name of names">
+    <td>{{names.fname}}</td>
+    <td>{{names.age}}</td>
+  </tr>
+</table> -->
+
+
+
+<app-login></app-login>
+<app-root></app-root>
+<app-signin></app-signin>
+<h1>hello</h1>

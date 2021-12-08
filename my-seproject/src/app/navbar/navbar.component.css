@@ -1,0 +1,19 @@
+.one{
+    height: 400px;
+    width: 600px;
+    background-color: coral;
+    justify-content: center;
+}
+.two{
+    height: 40px;
+    width: 300px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+
+}.three{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    
+}

@@ -1,0 +1,62 @@
+/*.box{
+    justify-content: center;
+    align-content: center;
+}
+.one{
+    height: 350px;
+    width: 200px;
+    background-color:orange;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.two{
+    height: 350px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.three{
+    height: 350px;
+    width: 200px;
+    background-color:darkblue;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.four{
+
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    color: orange;
+    padding-left: 25px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+
+
+
+.changecolor{
+    color: pink;
+}
+.bgcolor{
+    background-color: lightcyan;
+}
+.newFont{
+    color: lightskyblue;
+    
+}
+*/
+
+
+.eleven{
+    color: red;
+}
